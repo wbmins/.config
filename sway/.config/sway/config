@@ -97,7 +97,7 @@ output * bg ~/pictures/$img fill
 bindsym $mod+c exec --no-startup-id google-chrome-stable
 bindsym $mod+e exec --no-startup-id telegram-desktop
 bindsym $mod+d exec --no-startup-id wofi --show drun 
-bindsym $mod+9 exec --no-startup-id swaylock -i pictures/$img
+bindsym $mod+9 exec --no-startup-id swaylock
 #
 # Basics:
 #
