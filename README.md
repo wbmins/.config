@@ -24,7 +24,7 @@
 
     ```shell
     # 获取当前系统中主动安装的包
-    pacman -Qqet > pkglist.txt
+    pacman -Qqe > pkglist.txt
     # 从列表文件安装软件包
     pacman -S --needed - < pkglist.txt
     # 如果其中包含AUR等外部包，需要过滤后再执行
