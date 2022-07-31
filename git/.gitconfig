@@ -1,3 +1,5 @@
 [user]
 	email = wbminions@gmail.com
 	name = wbmins
+[credential]
+	helper = libsecret
